@@ -8,7 +8,7 @@ import { useLocation, useParams } from "react-router-dom";
 const ProfileDetails = () => {
   let dispatch = useDispatch();
   let params = useParams();
-  let profile = useSelector(state => state.profile.profileDetails);
+  let profile = useSelector((state) => state.profile.profileDetails);
 
   console.log(params.profileId);
   useEffect(() => {

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import JobModale from "./JobModale";
 import { useState } from "react";
 // import moment from "moment/moment";
 // moment().statOf(publication_date).fromNow();
@@ -33,14 +32,6 @@ const SingleJob = ({ job }) => {
         </Link>
       </div>
       <hr />
-      {offertaModale && (
-        <JobModale
-          show={offertaModale}
-          job={job}
-          onHide={() => setOffertaModale(false)}
-          setOffertaModale={setOffertaModale}
-        />
-      )}
     </>
   );
 };

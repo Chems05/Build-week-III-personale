@@ -1,11 +1,10 @@
 import { Button, Card, ListGroup, Form, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import JobsCollapse from "./JobsCollapse";
 import { BsArrowRight, BsBookmark } from "react-icons/bs";
 import { GiArrowScope } from "react-icons/gi";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import JobModale from "./JobModale";
+
 import SingleJob from "./SingleJob";
 
 const JobsCentralPage = () => {
